@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(28, 111, 134), rgb(146, 217, 223));
+}
+main{
+    margin: 30px auto;
+    padding: 20px 10px 10px;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+}
+.personal_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle{
+    height: 120px;
+    width: 120px;
+}
+.circle, img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(17, 160, 200);
+    margin-bottom: 5px;
+}
+.my_track{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.other_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px 10px;
+    font-size: 18px;
+}
+.github_icon{
+    color: black;
+}
+
+/* Mobile screen */
+@media only screen and (min-width : 375px){
+    .circle{
+        height: 150px;
+        width: 150px;
+    }
+    .circle, img{
+        margin-bottom: 20px;
+    }
+    h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .my_track{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .other_details{
+        font-size: 22px;
+    }
+}
+/* Tablet screen */
+@media only screen and (min-width : 768px){
+    main{
+        margin: 25% auto;
+        width: 70%;
+    }
+    .circle{
+        height: 200px;
+        width: 200px;
+    }
+    .circle, img{
+        margin-bottom: 30px;
+    }
+    h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .my_track{
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .other_details{
+        font-size: 32px;
+    }
+}
+/* Tablet screen */
+@media only screen and (min-width : 1280px){
+    main{
+        margin: 15% auto;
+        width: 50%;
+    }
+}
