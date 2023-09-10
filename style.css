@@ -50,6 +50,9 @@ h1{
 .github_icon{
     color: black;
 }
+.github_icon:hover{
+    transform: scale(1.1);
+}
 
 /* Mobile screen */
 @media only screen and (min-width : 375px){
